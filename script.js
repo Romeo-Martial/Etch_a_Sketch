@@ -4,4 +4,7 @@ const container = document.getElementById("container");
 for (let i = 0; i < 256; i++) {
   const divItem = document.createElement("div");
   container.appendChild(divItem);
+  divItem.addEventListener("mouseenter", () => {
+    divItem.style.backgroundColor = "black";
+  });
 }
