@@ -5,15 +5,27 @@ body {
   box-sizing: border-box;
 }
 
-#container {
+#container_2 {
   display: flex;
   flex-wrap: wrap;
   margin: 0;
   width: 100vw;
 }
-#container > div {
-  width: 6.25vw;
-  height: 6.25vw;
+#container_2 > div {
   margin: 0;
   border: 1px solid black;
+}
+#container_1 {
+  display: flex;
+  justify-content: center;
+  background-color: antiquewhite;
+}
+#newGridBtn {
+  margin: 1.5rem;
+  padding: 1rem;
+  background-color: aqua;
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 1em;
 }
